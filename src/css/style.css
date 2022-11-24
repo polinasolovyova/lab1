@@ -297,3 +297,190 @@ footer {
     text-decoration: none;
     border: 1px solid #156963;
 }
+
+
+
+@media only screen and (max-width: 744px) {
+    .welcoming_text {
+        margin: 0px 83px 0px 83px;
+    }
+    .img {
+        display: none;
+    }
+    h1 {
+        font-size: 75px;
+    }
+    .wlc_txt {
+        font-size: 20px;
+    }
+    .block {
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+    .advs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .block:last-of-type {
+        display: none;
+    }
+    .featured_plants {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .plant_item {
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+    .motivation_img_2 {
+        display: none;
+    }
+    .motivation {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+        justify-content: center;
+    }
+    .motivation_txt {
+        margin: 0px 60px 58px 60px;
+    }
+    .motivation_img_1 {
+        margin: 0px 60px 80px 60px;
+    }
+    .motivation_img_2 {
+        display: none;
+    }
+    .buy_it {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 65px;
+        justify-content: center;
+    }
+    .buy_it_txt {
+        padding: 39px 42px;
+        font-size: 18px;
+
+    }
+    .visit_shop_link {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    
+    }
+    .buy_it_img {
+        width: 442px;
+        height: 343px;
+        margin: 0px 65px;
+    }
+    .box {
+        display: none;
+    }
+    .box-1 {
+        display: none;
+    }
+    footer {
+        margin: 35px 65px 100px 65px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .email-field {
+        height: 29px;
+        width: 258px;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+@media only screen and (max-width: 390px) {
+    .signing_links {
+        justify-content: center;
+        margin-right: 0px;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 1.25;
+    }
+    .welcoming_text {
+        margin: 0px 25px;
+    }
+    .wlc_txt {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .motivation {
+        margin: 0px 25px;
+    }
+    .featured_plants {
+        margin-bottom: 30px;
+    }
+    h3 {
+        font-size: 22px;
+        line-height: 1.25;
+    }
+    .motivation_txt {
+        margin: 0px 25px 38px 25px;
+    }
+    .par {
+        font-size: 12px;
+    }
+    .motivation_img_1 {
+        display: none;
+    }
+    .buy_it {
+        margin: 0px 40px;
+    }
+    .buy_it_txt {
+        padding: 19px 21px 0px 21px;
+    }
+
+    .buy_it_img{
+        display: none;
+    }
+
+    .visit_shop_link {
+        height: 19px;
+        width: 240px;
+        padding: 5px 104px;
+        font-size: 7px;
+    }
+    .buy_it_img {
+        width: 217px;
+        height: 168px;
+    }
+    footer {
+        margin: 0px 25px 25px 25px;
+        justify-content: space-between;
+    }
+    .plantku {
+        width: 53px;
+        height: 11px;
+        padding: 0;
+        margin: 10px 0px 20px 0px;
+    }
+    .hl {
+        font-size: 10px;
+    }
+    .ttl {
+        font-size: 7px;
+        line-height: 1.5;
+    }
+    .email-field {
+        width: 139px;
+        height: 19px;
+        font-size: 8px;
+        padding: 4.3px 51px 4.3px 7.7px;
+    }
+    .submit_link {
+        position: absolute;
+        right: 25px;
+        font-size: 7px;
+        text-align: center;
+    }
+
+}
